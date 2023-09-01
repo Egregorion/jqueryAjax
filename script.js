@@ -4,6 +4,7 @@ $(document).ready(function() {
         //console.log('event.detected')
         //récupérer le contenu du champs
         let searchValue = $('#search').val()
+        //en js classique ça serait document.querySelector('#search).value
         //console.log(search)
         /*$.ajax({
             url: 'traitement.php', //ici on définie la destination
